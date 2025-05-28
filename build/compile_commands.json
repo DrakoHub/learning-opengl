@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/rafaeltarcisio/Programas/Opengl/build",
+  "command": "/usr/bin/g++ -I/home/rafaeltarcisio/Programas/Opengl/depedencies -g -o CMakeFiles/opengl.dir/src/main.cpp.o -c /home/rafaeltarcisio/Programas/Opengl/src/main.cpp",
+  "file": "/home/rafaeltarcisio/Programas/Opengl/src/main.cpp"
+},
+{
+  "directory": "/home/rafaeltarcisio/Programas/Opengl/build",
+  "command": "/usr/bin/gcc -I/home/rafaeltarcisio/Programas/Opengl/depedencies -g -o CMakeFiles/opengl.dir/src/glad.c.o -c /home/rafaeltarcisio/Programas/Opengl/src/glad.c",
+  "file": "/home/rafaeltarcisio/Programas/Opengl/src/glad.c"
+}
+]

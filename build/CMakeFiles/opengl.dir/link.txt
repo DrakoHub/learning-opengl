@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/opengl.dir/src/main.cpp.o CMakeFiles/opengl.dir/src/glad.c.o -o opengl  /usr/lib/x86_64-linux-gnu/libglfw.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 
