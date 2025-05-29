@@ -5,6 +5,9 @@ cmake_policy(SET CMP0072 NEW)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 find_package(OpenGL REQUIRED)
 
+set(ASSETS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/assets)
+file(COPY ${ASSETS_DIR}/ DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/assets)
+
 find_package(glfw3 REQUIRED)
 
 add_executable(opengl 

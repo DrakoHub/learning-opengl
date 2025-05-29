@@ -4,16 +4,17 @@
 #define MAXHEIGHT 600
 
 float vertices[] = {
-    // Posição          // Cor
-     0.0f, 0.0f, 0.0f,  1.0f, 1.0f, 1.0f, // V0
+    // Posição          // Cor              //Coordenadas da Textura
+     0.0f, 0.0f, 0.0f,  1.0f, 1.0f, 1.0f,   0.5f, 0.5f, // V0
     // Hexagono
-     0.0f, 1.0f, 0.0f,  1.0f, 0.0f, 0.0f,  // V1
-     1.0f, 0.5f, 0.0f,  0.0f, 1.0f, 0.0f, // V2
-     1.0f,-0.5f, 0.0f,  0.0f, 0.0f, 1.0f, // V3
-     0.0f,-1.0f, 0.0f,  1.0f, 0.0f, 0.0f,// V4
-    -1.0f,-0.5f, 0.0f,  0.0f, 1.0f, 0.0f,// V5
-    -1.0f, 0.5f, 0.0f,  0.0f, 0.0f, 1.0f// V6
+     0.0f, 1.0f, 0.0f,  1.0f, 0.0f, 0.0f,   0.5f, 1.0f,// V1
+     1.0f, 0.5f, 0.0f,  0.0f, 1.0f, 0.0f,   1.0f, 0.75f,// V2
+     1.0f,-0.5f, 0.0f,  0.0f, 0.0f, 1.0f,   1.0f, 0.25f,// V3
+     0.0f,-1.0f, 0.0f,  1.0f, 0.0f, 0.0f,   0.5f, 0.0f,// V4
+    -1.0f,-0.5f, 0.0f,  0.0f, 1.0f, 0.0f,   0.0f, 0.25f,// V5
+    -1.0f, 0.5f, 0.0f,  0.0f, 0.0f, 1.0f,   0.0f, 0.75f// V6
 }; 
+
 unsigned int indices[] = {
     // Triângulos a partir do centro (V0)
     0, 1, 2,  // Centro, Topo, Topo-direita
